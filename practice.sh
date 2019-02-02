@@ -1,9 +1,9 @@
 #!/bin/bash
-# Author : Your Name
-# Date: 1/1/2019
+# Author : Xinyu Jiang
+# Date: 2/1/2019
 # Script follows here:
-echo "Enter a number: "
-read numOne
+echo "Enter a regular expression "
+read numOne:
 echo "Enter a second number: "
 read numTwo
 sum=$(($numOne + $numTwo))
